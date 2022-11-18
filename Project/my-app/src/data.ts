@@ -1,10 +1,11 @@
 export interface Task {
   name: string
   completed: boolean
+  id: string
 }
 
-export let taskList: Task[] = [
-  { name: 'task #1', completed: true },
-  { name: 'task #2', completed: true },
-  { name: 'task #3', completed: true },
+export const taskList: Task[] = [
+  { name: 'task #123', completed: true, id: 'task#1' },
+  { name: 'task #2', completed: true, id: 'task#2' },
+  { name: 'task #3', completed: true, id: 'task#3' },
 ]
